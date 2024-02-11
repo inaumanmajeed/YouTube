@@ -228,7 +228,7 @@ hr {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #ffffff1a;
+    background-color: #0f0f0f;
     border: none;
     border-radius: 50%;
     padding: 5px;
@@ -238,10 +238,18 @@ hr {
   
   .next-btn {
     right: 10px;
+    box-shadow: 0 0 10px 20px #0f0f0f;
   }
-  
+  .next-btn:hover {
+    background-color: #222222;
+  }
+
   .prev-btn {
     left: 10px;
+    box-shadow: 0 0 10px 20px #0f0f0f;
+  }
+  .prev-btn:hover {
+    background-color: #222222;
   }
 
 
