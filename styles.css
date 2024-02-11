@@ -341,15 +341,3 @@ hr {
     }
 }
 
-@media (max-width:550px) {
-    
-    .search-area input {
-        width: 50px;
-    }
-    .video-division {
-        grid-template-columns: 1fr;
-    }
-    .Nav-Bar {
-        padding-right: 10px;
-    }
-}
