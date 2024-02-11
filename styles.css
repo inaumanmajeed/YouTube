@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: rgb(228, 228, 228);
+}
+
+
+.Nav-Bar {
+    height: 56px;
+}
+
+.Main-Body {
+    height: 92vh;
+    display: flex;
+}
+
+.side-bar {
+    width: 15vw;
+
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-left: -20px;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #0f0f0f;
+        border-radius: 10px;
+        border: 2px solid #444444;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #444444;
+        border-radius: 10px;
+    }
+
+}
+
+.video-area{
+    width: 85vw;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #0f0f0f;
+        border-radius: 10px;
+        border: 2px solid #444444;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: #444444;
+        border-radius: 10px;
+    }
+
+}
+
+
+#navigation {
+    display: flex;
+    height: 56px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+.menu-icon {
+    width: 18px;
+    margin-left: 16px;
+}
+
+.external-icon {
+    width: 5.5rem !important;
+    margin-left: 25px;
+}
+
+#country-code {
+    margin: -18px 0 0 4px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #aaa;
+}
+
+}
+.search {
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35%;
+    margin-left: -165px;
+}
+
+.search-area input {
+    background-color: transparent;
+    border: 1px solid #222222;
+    height: 34px;
+    width: 450px;
+    padding-left: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right: none;
+}
+#search-button {
+    width: 24px;
+    padding-right: 35px;
+    padding-left: 15px;
+    background-color: #222222;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.mic img{
+    width: 20px;
+    margin-left: 10px;
+    background-color: #222222;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.user {
+    /* background-color: green; */
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.create img, .bell img, .user img {
+    width: 24px;
+    padding: 0 10px 0;
+}
+
+
+
+
+hr {
+    border: none;
+    border-top: 1px solid #272727;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+.Main-Body .nav-links a svg {
+    width: 24px !important;
+    height: 24px !important;
+    fill: #ffffff;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+
+.footer-links a {
+    color: #929ea1; 
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: 11px;
+}
+
+.copyright {
+    color: #7b7878;
+    margin-left: 38px;
+}
+
+.scroll-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+
+.scroll-content {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    white-space: nowrap;
+    margin: 6px 20px;
+    height: 30px;
+    min-width: 12px;
+    overflow: hidden; 
+    cursor: pointer;   
+}
+.link-tags {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #ffffff1a;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+
+}
+
+
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ffffff1a;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    fill: #fff;
+    cursor: pointer;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+
+
+
+
+.video-division {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 15px 20px;
+    height: calc(100vh - 100px);
+}
+.video1 {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
