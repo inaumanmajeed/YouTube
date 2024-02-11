@@ -43,3 +43,17 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollContent.addEventListener("scroll", updateButtonVisibility);
   });
   
+
+
+  const videos = document.querySelectorAll('.video1');
+
+videos.forEach(video => {
+  video.addEventListener('mouseenter', () => {
+    video.play();
+  });
+  
+  video.addEventListener('mouseleave', () => {
+    video.pause();
+    video.currentTime = 0;
+  });
+});
